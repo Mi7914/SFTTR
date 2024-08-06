@@ -13,9 +13,9 @@ USEROBERTA = False
 
 class SIMS:
     class path:
-        raw_data_path = '/data/tm/ConFEDE-Graph_Main/data/SIMS/data/unaligned_39.pkl'
-        model_path = '/data/tm/ConFEDE-Graph_Main/data/SIMS/ckpt/fusion-best/'
-        encoder_path = '/data/tm/ConFEDE-Graph_Main/data/SIMS/ckpt/fea_encoder/'
+        raw_data_path = '/data/SIMS/data/unaligned_39.pkl'
+        model_path = '/data/SIMS/ckpt/fusion-best/'
+        encoder_path = '/data/SIMS/ckpt/fea_encoder/'
 
 
         if USEROBERTA:
