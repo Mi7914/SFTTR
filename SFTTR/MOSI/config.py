@@ -13,10 +13,10 @@ USEROBERTA = False
 
 class MOSI:
     class path:
-        bert_en = '/data/tm/C+T/ConFEDE/data/MOSI/ckpt/bert_en/'
-        raw_data_path = '/data/tm/ConFEDE-Graph_Main/data/MOSI/Processed/unaligned_50.pkl'
-        model_path = '/data/tm/1.27/ckpt/encoder/'
-        encoder_path = '/data/tm/1.27/ckpt/fea_encoder/'
+        bert_en = '/data/data/MOSI/ckpt/bert_en/'
+        raw_data_path = '/data/MOSI/Processed/unaligned_50.pkl'
+        model_path = '/data/ckpt/encoder/'
+        encoder_path = '/data/ckpt/fea_encoder/'
         if USEROBERTA:
             model_path = model_path + '/roberta/'
         else:
