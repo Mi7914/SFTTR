@@ -13,9 +13,9 @@ USEROBERTA = False
 
 class MOSEI:
     class path:
-        encoder_path = '/data/tm/ConFEDE-Graph_Main/data/MOSEI/ckpt/encoder_fea/'
-        raw_data_path = '/data/tm/ConFEDE-Graph_Main/data/MOSEI/data/unaligned_50.pkl'
-        model_path = '/data/tm/ConFEDE-Graph_Main/data/MOSEI/ckpt/encoder/'
+        encoder_path = '/data/MOSEI/ckpt/encoder_fea/'
+        raw_data_path = '/data/unaligned_50.pkl'
+        model_path = '/data/MOSEI/ckpt/encoder/'
         if USEROBERTA:
             model_path = model_path + '/roberta/'
         else:
